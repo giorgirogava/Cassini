@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		88C18D17273181BC0025186F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C18D16273181BC0025186F /* AppDelegate.swift */; };
 		88C18D19273181BC0025186F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C18D18273181BC0025186F /* SceneDelegate.swift */; };
-		88C18D1B273181BC0025186F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C18D1A273181BC0025186F /* ViewController.swift */; };
 		88C18D1E273181BC0025186F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D1C273181BC0025186F /* Main.storyboard */; };
 		88C18D20273181BD0025186F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D1F273181BD0025186F /* Assets.xcassets */; };
 		88C18D23273181BD0025186F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D21273181BD0025186F /* LaunchScreen.storyboard */; };
+		88C18D2C273182950025186F /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C18D2B273182950025186F /* ImageViewController.swift */; };
+		88C18D2E2731892C0025186F /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C18D2D2731892C0025186F /* DemoURLs.swift */; };
+		88C18D3327318BCB0025186F /* Saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D3027318BCB0025186F /* Saturn.jpg */; };
+		88C18D3427318BCB0025186F /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D3127318BCB0025186F /* Earth.jpg */; };
+		88C18D3527318BCB0025186F /* Cassini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D3227318BCB0025186F /* Cassini.jpg */; };
+		88C18D3827318FA60025186F /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88C18D3727318FA60025186F /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88C18D13273181BC0025186F /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C18D16273181BC0025186F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88C18D18273181BC0025186F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88C18D1A273181BC0025186F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88C18D1D273181BC0025186F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88C18D1F273181BD0025186F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C18D22273181BD0025186F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88C18D24273181BD0025186F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C18D2B273182950025186F /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		88C18D2D2731892C0025186F /* DemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURLs.swift; sourceTree = "<group>"; };
+		88C18D3027318BCB0025186F /* Saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpg; sourceTree = "<group>"; };
+		88C18D3127318BCB0025186F /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		88C18D3227318BCB0025186F /* Cassini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cassini.jpg; sourceTree = "<group>"; };
+		88C18D3727318FA60025186F /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		88C18D15273181BC0025186F /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				88C18D16273181BC0025186F /* AppDelegate.swift */,
-				88C18D18273181BC0025186F /* SceneDelegate.swift */,
-				88C18D1A273181BC0025186F /* ViewController.swift */,
+				88C18D2B273182950025186F /* ImageViewController.swift */,
 				88C18D1C273181BC0025186F /* Main.storyboard */,
-				88C18D1F273181BD0025186F /* Assets.xcassets */,
-				88C18D21273181BD0025186F /* LaunchScreen.storyboard */,
+				88C18D2D2731892C0025186F /* DemoURLs.swift */,
+				88C18D18273181BC0025186F /* SceneDelegate.swift */,
+				88C18D2A273181D80025186F /* Supporting Files */,
 				88C18D24273181BD0025186F /* Info.plist */,
+				88C18D3727318FA60025186F /* oval.jpg */,
+				88C18D3227318BCB0025186F /* Cassini.jpg */,
+				88C18D3127318BCB0025186F /* Earth.jpg */,
+				88C18D3027318BCB0025186F /* Saturn.jpg */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		88C18D2A273181D80025186F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C18D16273181BC0025186F /* AppDelegate.swift */,
+				88C18D1F273181BD0025186F /* Assets.xcassets */,
+				88C18D21273181BD0025186F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C18D3827318FA60025186F /* oval.jpg in Resources */,
 				88C18D23273181BD0025186F /* LaunchScreen.storyboard in Resources */,
 				88C18D20273181BD0025186F /* Assets.xcassets in Resources */,
+				88C18D3327318BCB0025186F /* Saturn.jpg in Resources */,
+				88C18D3427318BCB0025186F /* Earth.jpg in Resources */,
+				88C18D3527318BCB0025186F /* Cassini.jpg in Resources */,
 				88C18D1E273181BC0025186F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C18D1B273181BC0025186F /* ViewController.swift in Sources */,
+				88C18D2E2731892C0025186F /* DemoURLs.swift in Sources */,
 				88C18D17273181BC0025186F /* AppDelegate.swift in Sources */,
+				88C18D2C273182950025186F /* ImageViewController.swift in Sources */,
 				88C18D19273181BC0025186F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
